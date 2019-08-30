@@ -1,7 +1,8 @@
-在Linux环境安装python3
+# 在Linux环境安装python3
 1，安装相关依赖库(工具包)：
-
+```bash
 　　yum install gcc patch libffi-devel python-devel  zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gdbm-devel db4-devel libpcap-devel xz-devel -y
+```
 
  
 
@@ -11,7 +12,7 @@
 
 　　cd opt/
 
-　　wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
+　　wget https://www.python.org/ftp/python/3.4.7/Python-3.4.7.tar.xz
 
  
 
@@ -102,5 +103,3 @@
 　　4，安装好django1.11后，配置软连接(环境变量)
 
 　　5，启动django
-
-　　　　
