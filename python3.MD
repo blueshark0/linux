@@ -33,11 +33,16 @@
 　　./configure --prefix=/opt/python37
  
 6，编译：
+
 　　make
  
 7，编译成功后，编译安装。
-　　make install
 
+　　make install
+  
+![图片](https://images2018.cnblogs.com/blog/1353608/201808/1353608-20180810152138279-1873648531.png)
+
+ 
  
 
 8，切换到已经安装好了的python3.7目录
